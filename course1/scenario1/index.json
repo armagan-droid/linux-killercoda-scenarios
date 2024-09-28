@@ -1,6 +1,6 @@
 {
-  "title": "Linux cli commands",
-  "description": "Copy and Move commands",
+  "title": "Manage Files with Command-line Tools in Linux",
+  "description": "Create, copy, move, and remove files and directories.",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,7 +8,7 @@
     },
     "steps": [
       {
-        "title": "Copy command",
+        "title": "mkdir command",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       }
