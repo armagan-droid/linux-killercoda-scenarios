@@ -8,7 +8,7 @@ EOT
 
 # init scenario
 rm $0
-mkdir -p /home/ubuntu/cities
+mkdir -p /opt/ks
 
 # mark init finished
 touch /opt/.initfinished
