@@ -6,10 +6,12 @@ The `cp` command copies a file, and creates a file either in the current directo
 $cd /opt/files
 
 $cp file1.txt file4.txt
+
 $ls -l
--rw-rw-r--. 1 user user    0 Feb  8 16:23 file1.txt
--rw-rw-r--. 1 user user    0 Feb  8 16:24 file2.txt
--rw-rw-r--. 1 user user    0 Feb  8 16:34 file3.txt
--rw-rw-r--. 1 user user    0 Feb  8 16:34 file4.txt
+total 0
+-rw-r--r-- 1 root root 0 Sep 28 18:42 file1.txt
+-rw-r--r-- 1 root root 0 Sep 28 18:42 file2.txt
+-rw-r--r-- 1 root root 0 Sep 28 18:42 file3.txt
+-rw-r--r-- 1 root root 0 Sep 28 18:43 file4.txt
 
 ```
