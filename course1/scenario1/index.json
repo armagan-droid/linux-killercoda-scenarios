@@ -10,6 +10,10 @@
       {
         "title": "mkdir command",
         "text": "step1/text.md"
+      },
+      {
+        "title": "cp command",
+        "text": "step2/text.md"
       }
     ],
     "assets": {
