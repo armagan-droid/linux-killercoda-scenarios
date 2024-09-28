@@ -1,6 +1,6 @@
 {
-    "title": "Scenario TWO",
-    "description": "This is the description of scenario TWO in course ONE",
+    "title": "Linux Manual Pages",
+    "description": "Find information in local Linux system manual pages.",
     "backend": {
       "imageid": "ubuntu"
     }
