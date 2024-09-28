@@ -1,14 +1,7 @@
 #!/bin/bash
 
-cat <<EOT > /root/.vimrc
-set expandtab
-set tabstop=2
-set shiftwidth=2
-EOT
-
 # init scenario
-rm $0
-mkdir -p /opt/ks
+
 mkdir -p /home/ubuntu/files
 mkdir -p /home/ubuntu/bakfiles
 
