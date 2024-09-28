@@ -1,17 +1,16 @@
-Copy Files and Directories
-
-The `cp` command copies a file, and creates a file either in the current directory or in a different specified directory.
+The `mkdir` command -p (parent) option creates any missing parent directories for the requested destination. In the following example, the `mkdir` command creates three dirN subdirectories with one command.The `-p` option creates the missing Dir parent directory.
 
 ```plain
-$cd /opt/files
+$mkdir -p Dir/dir1 Dir/dir2 Dir/dir3
 
-$cp file1.txt file4.txt
+$ls -R Dir
+Dir/:
+dir1  dir2  dir3
 
-$ls -l
-total 0
--rw-r--r-- 1 root root 0 Sep 28 18:42 file1.txt
--rw-r--r-- 1 root root 0 Sep 28 18:42 file2.txt
--rw-r--r-- 1 root root 0 Sep 28 18:42 file3.txt
--rw-r--r-- 1 root root 0 Sep 28 18:43 file4.txt
+Dir/dir1
+
+Dir/dir2
+
+Dir/dir3
 
 ```
