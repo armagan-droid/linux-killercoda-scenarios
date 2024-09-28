@@ -4,6 +4,7 @@
 
 mkdir -p /opt/files
 mkdir -p /opt/bakfiles
+mkdir -p /opt/logs
 
 touch /opt/files/file{1..3}
 

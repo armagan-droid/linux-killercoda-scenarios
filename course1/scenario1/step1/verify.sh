@@ -1,11 +1,11 @@
 #!/bin/bash
 
-LOGFILE=/ks/step1-verify.log
+LOGFILE=/opt/logs/step1-verify.log
 
 set -e
 
 {
     date
-    ls -l /home/ubuntu/bakfiles | grep -i file
+    ls -l /opt/bakfiles | grep -i file
 } >> ${LOGFILE} 2>&1
 echo "done"
