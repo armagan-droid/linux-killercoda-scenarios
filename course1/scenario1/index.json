@@ -18,6 +18,10 @@
       {
         "title": "cp command",
         "text": "step3/text.md"
+      },
+      {
+        "title": "rm command",
+        "text": "step4/text.md"
       }
     ],
     "assets": {

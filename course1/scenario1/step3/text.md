@@ -18,3 +18,16 @@ total 0
 
 **Note**
 >By default, the cp command **does not copy directories**; it ignores them.
+
+You can copy directories and their contents by using the `cp` command `-r` option.
+
+```plain
+
+$cp -r files /home/ubuntu
+
+$cd /home/ubuntu
+
+$ls -lR
+drw-r--r-- 1 root root 0 Sep 28 18:42 files
+
+```
