@@ -1,6 +1,20 @@
 {
     "title": "Manage Files with Command-line Tools in Linux - 01.1",
     "description": "The File-system Hierarchy",
+    "details": {
+      "intro": {
+      "text": "intro.md"
+    },"steps": [
+      {
+        "title": "The File-system Hierarchy",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Absolute Paths and Relative Paths",
+        "text": "step2/text.md"
+      }
+    ]
+    },
     "backend": {
       "imageid": "ubuntu"
     }

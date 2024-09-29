@@ -1,0 +1,2 @@
+How Linux organizes files, and the purposes of various directories in the file-system hierarchy.
+Specify the absolute location and relative location of files to the current working directory, determine and change the working directory, and list the contents of directories.
