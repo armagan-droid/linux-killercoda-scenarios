@@ -30,7 +30,7 @@ Subdirectories of `/` are used for standardized purposes to organize files by ty
 
 |**/root**          |`Home directory for the administrative superuser, root.`|
 
-|**/run**          |`Runtime data for processes that started since the last boot. This data includes process ID files and lock files. The contents of this directory are re-created on reboot. This directory consolidates the /var/run and /var/lock directories from earlier versions of Red Hat Enterprise Linux.`|
+|**/run**          |`Runtime data for processes that started since the last boot. This data includes process ID files and lock files. The contents of this directory are re-created on reboot.`|
 
 |**/tmp**          |`A world-writable space for temporary files. Files that are not accessed, changed, or modified for 10 days are deleted from this directory automatically. The /var/tmp directory is also a temporary directory, in which files that are not accessed, changed, or modified in more than 30 days are deleted automatically.`|
 
