@@ -1,21 +1,17 @@
-Remove Files and Directories
-The `rm` command removes files. By default, `rm` does not remove directories. You can use the `rm` command `-r` or the `--recursive` option to enable the `rm` command to remove directories and their contents. The `rm -r` command traverses each subdirectory first, and individually removes their files before removing each directory.
+Move Files and Directories
+The `mv` command moves files from one location to another. If you think of the absolute path to a file as its full name, then moving a file is effectively the same as renaming a file. The contents of the files that are moved remain unchanged.
+
+Use the `mv` command to rename a file. In the following example, the `mv file2.txt` command renames the `file2.txt` file to `file2_reviewed.txt` in the same directory.
 
 ```plain
-$cd /home/ubuntu
+$cd /opt/files
 
-$rm files/file1.txt
+$mv file2.txt file2_reviewed.txt
 
-$rm files
-rm: cannot remove 'files': Is a directory
+$ls -l
+-rw-r--r-- 1 root root 0 Sep 28 18:42 file1.txt
+-rw-r--r-- 1 root root 0 Sep 28 18:42 file2_reviewed.txt
+-rw-r--r-- 1 root root 0 Sep 28 18:42 file3.txt
+-rw-r--r-- 1 root root 0 Sep 28 18:43 file4.txt
 
-$rm -r files
-
-```
-**Note**
->It is a good idea to verify your current working directory before you remove a file or directory by using relative paths.
-
-```plain
-$pwd
-/home/ubuntu
 ```

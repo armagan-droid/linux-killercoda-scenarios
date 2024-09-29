@@ -20,8 +20,12 @@
         "text": "step3/text.md"
       },
       {
-        "title": "rm command",
+        "title": "mv command",
         "text": "step4/text.md"
+      },
+      {
+        "title": "rm command",
+        "text": "step5/text.md"
       }
     ],
     "assets": {
