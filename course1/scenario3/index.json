@@ -1,0 +1,7 @@
+{
+    "title": "Create, View, and Edit Text Files in Linux - 03",
+    "description": "Create, view, and edit text files from command output or in a text editor.",
+    "backend": {
+      "imageid": "ubuntu"
+    }
+}

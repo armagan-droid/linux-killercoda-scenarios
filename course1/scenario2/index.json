@@ -1,5 +1,5 @@
 {
-    "title": "Linux Manual Pages",
+    "title": "Linux Manual Pages - 02",
     "description": "Find information in local Linux system manual pages.",
     "backend": {
       "imageid": "ubuntu"
