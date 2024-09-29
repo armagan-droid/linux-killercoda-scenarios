@@ -18,7 +18,7 @@ The `/` directory is the root directory at the top of the file-system hierarchy.
 
 Subdirectories of `/` are used for standardized purposes to organize files by type and purpose to make it easier to find files. For example, in the root directory, the `/boot` subdirectory is used for storing files to boot the system.
 
-**Significant Red Hat Enterprise Linux Directories**
+**Significant Linux Directories**
 
 |**/boot** |`Files to start the boot process.`            |
 
