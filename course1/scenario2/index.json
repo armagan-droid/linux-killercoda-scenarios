@@ -1,6 +1,6 @@
 {
-    "title": "Linux Manual Pages - 02",
-    "description": "Find information in local Linux system manual pages.",
+    "title": "Manage Files with Command-line Tools in Linux - 01.1",
+    "description": "The File-system Hierarchy",
     "backend": {
       "imageid": "ubuntu"
     }
