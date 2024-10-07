@@ -1,0 +1,1 @@
+Create a file under the `/opt/files1/` that name is `file1.txt`.
