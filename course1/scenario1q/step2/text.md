@@ -1,0 +1,1 @@
+Create a directory under the `/opt/` that name is `dir1`.
