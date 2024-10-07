@@ -1,0 +1,1 @@
+Delete the directory and files of `/opt/dir2`.

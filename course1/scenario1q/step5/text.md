@@ -1,0 +1,1 @@
+Rename the directory of `/opt/dir1` to `/opt/dir2`.

@@ -1,0 +1,1 @@
+Delete the `/opt/dir1/file1_bak.txt`.

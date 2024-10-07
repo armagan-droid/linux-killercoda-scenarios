@@ -23,14 +23,24 @@
           "verify": "step3/verify.sh"
         },
         {
-          "title": "mv command",
+          "title": "cp command",
           "text": "step4/text.md",
           "verify": "step4/verify.sh"
         },
         {
-          "title": "rm command",
+          "title": "mv command",
           "text": "step5/text.md",
           "verify": "step5/verify.sh"
+        },
+        {
+          "title": "rm command",
+          "text": "step6/text.md",
+          "verify": "step6/verify.sh"
+        },
+        {
+          "title": "rm command",
+          "text": "step7/text.md",
+          "verify": "step7/verify.sh"
         }
       ],
       "assets": {

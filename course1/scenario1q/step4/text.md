@@ -1,0 +1,1 @@
+`/opt/dir1/file1.txt` copy as `file1_bak.txt` in the same directory.
